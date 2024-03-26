@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "serviceConnectorResourceId": "",
+      "secretStore": "AzureAppSettings",
+      "resourceId": null,
+      "type": "mssql.onprem",
+      "connectionId": "ConnectionStrings:NZWalksConnectionString"
+    },
+    "mssql2": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Web/sites/app-nzwalks-eastus-dev-001-test/providers/Microsoft.ServiceLinker/linkers/ConnectionStringssqldbnzwalkseastusdev00_FC50A455B7",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/sqlserver-nzwalks-eastus-dev-001-test/databases/sqldb-nzwalks-eastus-dev-001-test",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:sqldb-nzwalks-eastus-dev-001-test"
+    }
+  }
+}
